@@ -9,10 +9,10 @@ module.exports = withAnimations({
   darkMode: 'class',
   theme: {
     extend: {
-      animation:{
+      animation: {
       }
     },
-    },
+  },
   plugins: [],
 }
 );
