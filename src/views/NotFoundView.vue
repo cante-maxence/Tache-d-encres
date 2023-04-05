@@ -1,16 +1,66 @@
+<style type="text/css">
+.text-9xl {
+    font-size: 14rem;
+}
+
+@media(max-width: 645px) {
+    .text-9xl {
+        font-size: 5.75rem;
+    }
+
+    .text-6xl {
+        font-size: 1.75rem;
+    }
+
+    .text-2xl {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .py-8 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .px-6 {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+
+    .mr-6 {
+        margin-right: 0.5rem;
+    }
+
+    .px-12 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+html {
+    overflow-y: hidden;
+}
+</style>
+
+
 <template>
-    <div class="relative h-screen overflow-hidden bg-indigo-900">
-        <img src="/images/landscape/8.svg" class="absolute object-cover w-full h-full" />
-        <div class="absolute inset-0 bg-black opacity-25">
-        </div>
-        <div class="container relative z-10 flex items-center px-6 py-32 mx-auto md:px-12 xl:py-40">
-            <div class="relative z-10 flex flex-col items-center w-full font-mono">
-                <h1 class="mt-4 text-5xl font-extrabold leading-tight text-center text-white">
-                    You&#x27;re alone here
-                </h1>
-                <p class="font-extrabold text-white text-8xl my-44 animate-bounce">
-                    404
-                </p>
+    <div class="bg-gradient-to-r from-indigo-900 to-blue-200 w-11/12  h-5/6 m-10 mr-20">
+        <div class="w-9/12 m-auto py-16 min-h-screen flex  items-center justify-center">
+            <div class="bg-white shadow overflow-hidden -mt-44 sm:rounded-lg pb-8">
+                <div class="border-t border-gray-200 text-center pt-8">
+                    <h1 class="text-9xl font-bold text-purple-400">404</h1>
+                    <h1 class="text-6xl font-medium py-8">Dommage !</h1>
+                    <p class="text-2xl pb-8 px-12 font-medium">La page que vous cherchez n'existe pas. Elle a
+                        peut-être été déplacée ou supprimée.</p>
+                    <button
+                        class="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-blue-500 text-white font-semibold px-6 py-3 rounded-md mr-6">
+                        Accueil
+                    </button>
+                    <button
+                        class="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-500 text-white font-semibold px-6 py-3 rounded-md">
+                        Contactez-Moi
+                    </button>
+                </div>
             </div>
         </div>
     </div>

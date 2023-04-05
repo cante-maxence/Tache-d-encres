@@ -1,4 +1,35 @@
 <script setup>
+
 </script>
 
-<template></template>
+<template>
+    <div class="px-4 mx-auto rounded-md max-h-96 mt-16 bg-blue-800 max-w-7xl sm:px-6 lg:px-8">
+        <div class="2xl:pl-24">
+            <div class="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:gap-x-8 2xl:gap-x-20">
+                <div class="text-center md:py-16 xl:py-24 md:text-left">
+                    <blockquote>
+                        <p class="text-2xl font-semibold leading-relaxed text-gray-900">“Amet minim mollit non deserunt
+                            ullamco
+                            est
+                            sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
+                            veniam
+                            consequat sunt nostrud amet.”</p>
+                    </blockquote>
+                    <div class="mt-6 sm:flex sm:items-baseline sm:justify-center md:justify-start">
+                        <p class="text-base font-semibold text-gray-900">Jenny Wilson</p>
+                        <p class="mt-2 text-base text-gray-700 sm:mt-0 sm:ml-2">Project Manager at Microsoft</p>
+                    </div>
+                    <p class="mt-12 text-base text-gray-900 lg:mt-20">Want to see Celebration in action?</p>
+                    <a href="#" title=""
+                        class="inline-flex items-center justify-center px-8 py-4 mt-4 text-base font-semibold text-white transition-all duration-200 bg-black rounded-md hover:opacity-80 focus:opacity-80"
+                        role="button"> Create your first website </a>
+                </div>
+
+                <div class="relative">
+                    <img class="md:absolute md:bottom-0 md:scale-110 md:origin-bottom-right lg:scale-75 2xl:scale-100 2xl:-mt-20"
+                        src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/11/smiling-man.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
