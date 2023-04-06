@@ -37,15 +37,16 @@
     }
 }
 
-html {
-    overflow-y: hidden;
+html,
+body {
+    overflow: hidden;
 }
 </style>
 
 
 <template>
-    <div class="bg-gradient-to-r from-indigo-900 to-blue-200 w-11/12  h-5/6 m-10 mr-20">
-        <div class="w-9/12 m-auto py-16 min-h-screen flex  items-center justify-center">
+    <div class="bg-gradient-to-r from-indigo-900 to-blue-200 w-8/12 h-5/6 mt-6 m-auto rounded-3xl">
+        <div class="w-9/12 m-auto  min-h-screen flex  items-center justify-center">
             <div class="bg-white shadow overflow-hidden -mt-44 sm:rounded-lg pb-8">
                 <div class="border-t border-gray-200 text-center pt-8">
                     <h1 class="text-9xl font-bold text-purple-400">404</h1>

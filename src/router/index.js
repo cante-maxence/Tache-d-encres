@@ -5,6 +5,7 @@ import GallerieGraphView from '../views/GallerieGraphView.vue'
 import GallerieTattooView from '../views/GallerieTattooView.vue'
 import ContactView from '../views/ContactView.vue'
 import TermsView from '../views/TermsView.vue'
+import ArtisteView from '../views/ArtisteView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,6 +19,11 @@ const router = createRouter({
       path: '/GallerieGraph',
       name: 'Gallerie Graph',
       component: GallerieGraphView
+    },
+    {
+      path: '/Artiste',
+      name: 'Artiste',
+      component: ArtisteView
     },
     {
       path: '/GallerieTattoo',
