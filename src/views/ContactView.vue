@@ -49,12 +49,12 @@
             <div class="mt-2 overflow-hidden bg-white rounded-xl">
                 <div class=" py-4 sm:p-6">
 
-                    <form action="#" method="POST" class="mt-14">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="mt-14">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
                             <div>
-                                <label for="" class="text-base font-medium text-gray-900"> Your name </label>
+                                <label for="" class="text-base font-medium text-gray-900"> Votre Nom </label>
                                 <div class="mt-2.5 relative">
-                                    <input type="text" name="" id="" placeholder="Enter your full name"
+                                    <input type="text" name="name" id="name" placeholder="Entrer votre nom" required
                                         class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                 </div>
                             </div>
@@ -64,9 +64,9 @@
 
 
                             <div>
-                                <label for="" class="text-base font-medium text-gray-900"> Company name </label>
+                                <label for="" class="text-base font-medium text-gray-900"> Email </label>
                                 <div class="mt-2.5 relative">
-                                    <input type="text" name="" id="" placeholder="Enter your full name"
+                                    <input type="text" name="email" id="email" placeholder="Entrer votre Email" required
                                         class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                 </div>
                             </div>
@@ -74,15 +74,17 @@
                             <div class="sm:col-span-2">
                                 <label for="" class="text-base font-medium text-gray-900"> Message </label>
                                 <div class="mt-2.5 relative">
-                                    <textarea name="" id="" placeholder=""
+                                    <textarea name="message" id="" placeholder="" required
                                         class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md resize-y focus:outline-none focus:border-blue-600 caret-blue-600"
                                         rows="4"></textarea>
                                 </div>
                             </div>
-
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success ">
+                            <!-- access key -->
+                            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
                             <div class="sm:col-span-2">
                                 <button type="submit"
-                                    class="inline-flex items-center justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
+                                    class="inline-flex items-center z-30 justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
                                     Envoyer
                                 </button>
                             </div>
