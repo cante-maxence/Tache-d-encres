@@ -18,23 +18,12 @@
                             do amet sint. Velit officia consequat duis enim velit mollit.</p>
                     </div>
                 </div>
-
                 <div class="flex items-start">
                     <div class="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
                         <span class="text-lg font-semibold text-white">?</span>
                     </div>
                     <div class="ml-4">
-                        <p class="text-xl font-semibold text-white">Quelle est votre style ?</p>
-                        <p class="mt-4 text-base text-gray-400">Insta et galleries.</p>
-                    </div>
-                </div>
-
-                <div class="flex items-start">
-                    <div class="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
-                        <span class="text-lg font-semibold text-white">?</span>
-                    </div>
-                    <div class="ml-4">
-                        <p class="text-xl font-semibold text-white">Vous tatoué les mineurs ?</p>
+                        <p class="text-xl font-semibold text-white">Vous tatouez les mineurs ?</p>
                         <p class="mt-4 text-base text-gray-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor
                             do amet sint. Velit officia consequat duis enim velit mollit.</p>
                     </div>
@@ -45,7 +34,18 @@
                         <span class="text-lg font-semibold text-white">?</span>
                     </div>
                     <div class="ml-4">
-                        <p class="text-xl font-semibold text-white">Puis-je voir vos précédents tatouages ?</p>
+                        <p class="text-xl font-semibold text-white">Quelles sont vos disponibilités ?</p>
+                        <p class="mt-4 text-base text-gray-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                            do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                        <span class="text-lg font-semibold text-white">?</span>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-xl font-semibold text-white">Puis-je voir vos tarifs ?</p>
                         <p class="mt-4 text-base text-gray-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor
                             do amet sint. Velit officia consequat duis enim velit mollit.</p>
                     </div>
