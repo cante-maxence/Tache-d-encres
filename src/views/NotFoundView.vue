@@ -53,14 +53,20 @@ body {
                     <h1 class="text-6xl font-medium py-8">Dommage !</h1>
                     <p class="text-2xl pb-8 px-12 font-medium">La page que vous cherchez n'existe pas. Elle a
                         peut-être été déplacée ou supprimée.</p>
-                    <button
-                        class="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-blue-500 text-white font-semibold px-6 py-3 rounded-md mr-6">
-                        Accueil
-                    </button>
-                    <button
-                        class="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-500 text-white font-semibold px-6 py-3 rounded-md">
-                        Contactez-Moi
-                    </button>
+                    <router-link to="/"
+                        class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-4 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                        <span
+                            class="relative px-10 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                            Accueil
+                        </span>
+                    </router-link>
+                    <router-link to="/contact"
+                        class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-4 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                        <span
+                            class="relative px-10 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                            Contactez-moi
+                        </span>
+                    </router-link>
                 </div>
             </div>
         </div>

@@ -14,7 +14,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
-                        <p class="mt-6 text-lg font-medium text-gray-900">1020301020</p>
+                        <p class="mt-6 text-lg font-medium text-gray-900">07 68 31 36 49</p>
 
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
-                        <p class="mt-6 text-lg font-medium text-gray-900">loxbar90@hotmail.fr</p>
+                        <p class="mt-6 text-lg font-medium text-gray-900">tachedencre90@gmail.com</p>
 
                     </div>
                 </div>
@@ -40,8 +40,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
-                        <p class="mt-6 text-lg font-medium leading-relaxed text-gray-900">8502 Preston Rd. Ingle, Maine
-                            90000, France</p>
+                        <p class="mt-6 text-lg font-medium leading-relaxed text-gray-900"> Galerie fontaine, 40 Fbg de
+                            France, 90000 Belfort</p>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                             </div>
                             <input type="hidden" name="redirect" value="https://web3forms.com/success ">
                             <!-- access key -->
-                            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                            <input type="hidden" name="access_key" value="cce3e454-080d-40c1-b4f3-09f2e9d879d1">
                             <div class="sm:col-span-2">
                                 <button type="submit"
                                     class="inline-flex items-center z-30 justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">

@@ -7,6 +7,7 @@ import ContactView from '../views/ContactView.vue'
 import TermsView from '../views/TermsView.vue'
 import ArtisteView from '../views/ArtisteView.vue'
 import SalonView from '../views/SalonView.vue'
+import FAQView from '../views/FAQView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -45,6 +46,11 @@ const router = createRouter({
       path: '/Terms',
       name: 'Terms',
       component: TermsView
+    },
+    {
+      path: '/FAQ',
+      name: 'FAQ',
+      component: FAQView
     },
 
     { path: '/:pathMatch(.*)*', component: NotFoundView },

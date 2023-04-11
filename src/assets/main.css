@@ -3,7 +3,7 @@
 
 
 body {
-    background-image: linear-gradient(to right, #000000, #050c16, #0b182c, #121e41, #182957, #1e306c, #244880, #2a5494, #2f5ba2, #3562b0, #3a69be, #3f70cc);
+    background-image: linear-gradient(to right, #000000, #050c16, #0b182c, #121e41, #182957, #1e306c, #244880);
     animation: slideGradient 4s ease-in-out infinite alternate;
     background-repeat: no-repeat;
     background-size: 800% 100%;

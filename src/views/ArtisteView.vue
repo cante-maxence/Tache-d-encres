@@ -1,41 +1,37 @@
 <template>
-    <div
-        class="p-4 mx-auto rounded-md max-h-96 w-11/12 mt-16 bg-gradient-to-tl from-green-300 via-blue-500 to-purple-600 max-w-7xl sm:px-6 lg:px-8">
-        <div class="2xl:pl-24">
-            <div class="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:gap-x-8 2xl:gap-x-20">
-                <div class="text-center md:py-12 -pt-10 md:text-left">
-                    <blockquote>
-                        <p class="text-2xl font-semibold leading-relaxed text-gray-900">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Nesciunt facilis ratione, ad com voluptatum vel fugiat, quidem
-                            inventore quisquam maiores, temporibus omnis voluptatem et officiis esse repellat culpa maxime
-                            error.</p>
-                    </blockquote>
-                    <div class="mt-6 sm:flex sm:items-baseline sm:justify-center md:justify-start">
-                        <p class="text-base font-semibold text-gray-900"> Lox</p>
-                        <p class="mt-2 text-base text-gray-700 sm:mt-0 sm:ml-2">Tatoueur depuis 10 ans</p>
-                    </div>
-                    <p class="mt-12 text-base text-gray-900 lg:mt-20">Envie de voir mes créations</p>
-                    <button
-                        class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                        <span
-                            class="relative px-10 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                            Gallerie Tattoo
+    <section class="pt-10 -ml-10 overflow-hidden w-full  md:pt-0 sm:pt-16 2xl:pt-16">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <div class="grid items-center grid-cols-1 md:grid-cols-2">
+                <div>
+                    <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Salut 👋 moi c'est <br
+                            class="block sm:hidden" />Jenny Carter</h2>
+                    <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-200 md:mt-8">Amet minim mollit non deserunt
+                        ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.</p>
+
+                    <p class="mt-4 text-xl text-gray-400 md:mt-8">
+                        <span class="relative inline-block">
+                            <span class="absolute inline-block w-full bottom-0.5 h-2 bg-teal-200"></span>
+                            <span class="relative"> Une question ? </span>
                         </span>
-                    </button>
-                    <button
-                        class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-4 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                        <span
-                            class="relative px-10 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                            Gallerie Graph
-                        </span>
-                    </button>
+                        <br class="block sm:hidden" /> Regarde sur la page <RouterLink
+                            class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline" to="/FAQ">
+                            F.A.Q</RouterLink> ou pose
+                        la moi
+                        directement sur la page <RouterLink
+                            class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline" to="/FAQ">
+                            Contact</RouterLink>
+                    </p>
                 </div>
 
                 <div class="relative">
-                    <img class="md:absolute md:bottom-0 md:scale-110 md:origin-bottom-right lg:scale-75 2xl:scale-100 2xl:-mt-20"
-                        src="https://cdn.rareblocks.xyz/collection/celebration/images/cta/11/smiling-man.png" alt="" />
+                    <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2"
+                        src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" alt="" />
+
+                    <img class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
+                        src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png" alt="" />
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
