@@ -3,6 +3,18 @@
 
 
 body {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(117deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%);
+    background-image: linear-gradient(to right, #000000, #050c16, #0b182c, #121e41, #182957, #1e306c, #244880, #2a5494, #2f5ba2, #3562b0, #3a69be, #3f70cc);
+    animation: slideGradient 4s ease-in-out infinite alternate;
+    background-repeat: no-repeat;
+    background-size: 800% 100%;
+}
+
+@keyframes slideGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
 }
