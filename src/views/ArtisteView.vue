@@ -5,14 +5,13 @@
                 <div>
                     <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Salut 👋 moi c'est <br
                             class="block sm:hidden" />Jenny Carter</h2>
-                    <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-200 md:mt-8">Amet minim mollit non deserunt
-                        ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
-                        Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-200 md:mt-8">"Un tatoueur talentueux peut
+                        transformer un corps en une œuvre d'art."</p>
 
                     <p class="mt-4 text-xl text-gray-400 md:mt-8">
                         <span class="relative inline-block">
                             <span class="absolute inline-block w-full bottom-0.5 h-2 bg-teal-200"></span>
-                            <span class="relative"> Une question ? </span>
+                            <span class="relative text-white"> Une question ? </span>
                         </span>
                         <br class="block sm:hidden" /> Regarde sur la page <RouterLink
                             class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline" to="/FAQ">
@@ -20,7 +19,7 @@
                         la moi
                         directement sur la page <RouterLink
                             class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline" to="/FAQ">
-                            Contact</RouterLink>
+                            Contact.</RouterLink>
                     </p>
                 </div>
 
