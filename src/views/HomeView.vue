@@ -1,9 +1,5 @@
 <template>
     <div class=" w-full -ml-10">
-        <!-- Navbar -->
-
-
-        <!-- Hero section -->
         <div class="relative  overflow-hidden">
             <div class="max-w-7xl mx-auto">
                 <div class="relative z-10 pb-8  sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
@@ -42,11 +38,14 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="absolute right-0 bottom-10  rotate-6">
+            <img src="../assets/logo.svg" class="z-0" alt="Logo représentant un poulpe sur fond noir">
+        </div>
 
     </div>
 </template>
