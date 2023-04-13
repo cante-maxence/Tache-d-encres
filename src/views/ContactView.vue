@@ -96,3 +96,14 @@
 
     </section>
 </template>
+
+<style scoped>
+svg {
+    transition: transform 0.5s ease-in-out, fill 0.2s ease-in-out;
+}
+
+svg:hover {
+    transform: translateY(-20x) scale(1.4);
+    fill: #000000;
+}
+</style>

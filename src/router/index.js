@@ -8,6 +8,7 @@ import TermsView from '../views/TermsView.vue'
 import ArtisteView from '../views/ArtisteView.vue'
 import SalonView from '../views/SalonView.vue'
 import FAQView from '../views/FAQView.vue'
+import PolitiquesView from '../views/PolitiquesView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -46,6 +47,11 @@ const router = createRouter({
       path: '/Terms',
       name: 'Terms',
       component: TermsView
+    },
+    {
+      path: '/Politiques',
+      name: 'Politiques',
+      component: PolitiquesView
     },
     {
       path: '/FAQ',

@@ -53,9 +53,10 @@
             </div>
 
             <div class="flex items-center justify-center mt-12 md:mt-20">
-                <div class="px-8 py-4 text-center bg-gray-800 rounded-full">
+                <div
+                    class="px-8 py-4 items-center justify-center p-0.5 mb-2 mr-4 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                     <p class="text-gray-50">Tu n'a pas trouvé ton bohneur ? <a href="/contact" title=""
-                            class="text-blue-300 transition-all duration-200 hover:text-blue-400 focus:text-blue-400 hover:underline">Contactez-moi</a>
+                            class="text-white transition-all duration-200 hover:text-indigo-800 focus:text-indigo-600 hover:underline">Contactez-moi</a>
                     </p>
                 </div>
             </div>

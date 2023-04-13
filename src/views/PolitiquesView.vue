@@ -1,11 +1,11 @@
 <template>
     <div class="py-8 px-8 max-w-4xl mx-auto h-fit rounded-xl bg-white m-10">
-        <h1 class="text-2xl font-bold mb-4">Termes et Conditions générales d'utilisation de site</h1>
-        <p class="mb-4 text-mb">
-            Les présentes conditions générales d'utilisation (« Conditions d'utilisation ») régissent l'accès et
-            l'utilisation de ce site Web, ainsi que des services qui y sont offerts par son propriétaire.
-            . En accédant ou en utilisant le Site, vous acceptez ces Conditions
-            d'utilisation.</p>
+        <h1 class="text-2xl font-bold mb-4">Politique de confidentialité de Taches d'Encres</h1>
+        <p class="mb-4 text-mb">Chez Taches d'Encres, nous sommes engagés à protéger votre vie privée et à protéger
+            vos données personnelles. Nous respectons la confidentialité de vos informations et nous nous engageons à les
+            protéger en conformité avec les lois et réglementations applicables en matière de protection des données. Cette
+            politique de confidentialité décrit comment nous collectons, utilisons, stockons et partageons les informations
+            que nous collectons auprès de vous sur notre site web.</p>
         <h2 class="text-xl font-bold mb-2">Collecte d'informations</h2>
         <p class="mb-4 text-mb">Lorsque vous utilisez notre site web, nous pouvons collecter certaines informations
             personnelles
@@ -28,10 +28,3 @@
                 class="font-bold">loxbar90@hotmail.fr ou sur la page Contact</span>.</p>
     </div>
 </template>
-
-<style>
-html {
-    overflow-y: visible
-}
-</style>
-
