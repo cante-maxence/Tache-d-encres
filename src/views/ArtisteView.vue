@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-10 -ml-10 overflow-hidden w-full  md:pt-0 sm:pt-16 2xl:pt-16">
+    <section class="pt-10  overflow-hidden   md:pt-0 sm:pt-16 2xl:pt-16">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div class="grid items-center grid-cols-1 md:grid-cols-2">
                 <div>
@@ -21,6 +21,13 @@
                             class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline" to="/FAQ">
                             Contact.</RouterLink>
                     </p>
+                    <div class="m-4 flex justify-center">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftachedencrestattoo%2F%3Flocale%3Dfr_FR&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                            width="340" height="400" scrolling="no" frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
                 </div>
 
                 <div class="relative">
