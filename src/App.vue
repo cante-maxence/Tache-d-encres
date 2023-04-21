@@ -6,84 +6,85 @@ import { RouterLink, RouterView } from "vue-router";
   <body>
 
 
+    <div class="first:flex  first:h-screen">
+      <!-- Grand menu -->
+      <aside
+        class="flex flex-col w-min  invisible sm:invisible md:invisible lg:visible mr-10 px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+        <a href="/">
+          <img class="max-w-5xl h-52" src="../src/assets/logo.svg" alt="Logo représentant un poulpe sur fond noir">
+        </a>
 
-    <!-- Grand menu -->
-    <aside
-      class="flex flex-col w-min h-screen invisible sm:invisible md:invisible lg:visible mr-10 px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
-      <a href="/">
-        <img class="max-w-5xl h-52" src="../src/assets/logo.svg" alt="Logo représentant un poulpe sur fond noir">
-      </a>
+        <div class="flex flex-col justify-between  flex-1 mt-6">
+          <nav class="-mx-3 space-y-6 ">
+            <div class="space-y-3 ">
+              <label class="px-3 text-xs  text-gray-500 uppercase dark:text-gray-400">Présentation</label>
 
-      <div class="flex flex-col justify-between  flex-1 mt-6">
-        <nav class="-mx-3 space-y-6 ">
-          <div class="space-y-3 ">
-            <label class="px-3 text-xs  text-gray-500 uppercase dark:text-gray-400">Présentation</label>
+              <router-link
+                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                to="/salon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-5 h-5">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
+                </svg>
 
-            <router-link
-              class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              to="/salon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="w-5 h-5">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
-              </svg>
+                <span class="mx-2 text-sm font-medium">Salon</span>
+              </router-link>
 
-              <span class="mx-2 text-sm font-medium">Salon</span>
-            </router-link>
-
-            <router-link
-              class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              to="/Artiste">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-                <path
-                  d="M10 8a3 3 0 100-6 3 3 0 000 6zM3.465 14.493a1.23 1.23 0 00.41 1.412A9.957 9.957 0 0010 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 00-13.074.003z" />
-              </svg>
-
-
-              <span class="mx-2 text-sm font-medium">Artiste</span>
-            </router-link>
-          </div>
-
-          <div class="space-y-3 ">
-            <label class="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">Questions</label>
-
-            <router-link
-              class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              to="/contact">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="w-5 h-5">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-              </svg>
-
-              <span class="mx-2 text-sm font-medium">Contact</span>
-            </router-link>
-
-            <router-link to="/FAQ"
-              class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="w-5 h-5">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3" />
-              </svg>
-
-              <span class="mx-2 text-sm font-medium">F.A.Q</span>
-            </router-link>
+              <router-link
+                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                to="/Artiste">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                  <path
+                    d="M10 8a3 3 0 100-6 3 3 0 000 6zM3.465 14.493a1.23 1.23 0 00.41 1.412A9.957 9.957 0 0010 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 00-13.074.003z" />
+                </svg>
 
 
-          </div>
+                <span class="mx-2 text-sm font-medium">Artiste</span>
+              </router-link>
+            </div>
 
-          <div class="space-y-3 ">
-            <label class="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">Galleries</label>
+            <div class="space-y-3 ">
+              <label class="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">Questions</label>
 
-            <router-link
-              class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              to="/GallerieTattoo">
-              <svg fill="#000000" height="20px" width="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 459.82 459.82" xml:space="preserve">
-                <path
-                  d="M458.648,213.641l-53.128-53.128c1.471-4.246,4.284-13.429,5.426-24.395c1.9-18.255-1.774-33.442-10.608-44.271
+              <router-link
+                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                to="/contact">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-5 h-5">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                </svg>
+
+                <span class="mx-2 text-sm font-medium">Contact</span>
+              </router-link>
+
+              <router-link to="/FAQ"
+                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-5 h-5">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3" />
+                </svg>
+
+                <span class="mx-2 text-sm font-medium">F.A.Q</span>
+              </router-link>
+
+
+            </div>
+
+            <div class="space-y-3 ">
+              <label class="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">Galleries</label>
+
+              <router-link
+                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                to="/GallerieTattoo">
+                <svg fill="#000000" height="20px" width="20px" version="1.1" id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 459.82 459.82" xml:space="preserve">
+                  <path
+                    d="M458.648,213.641l-53.128-53.128c1.471-4.246,4.284-13.429,5.426-24.395c1.9-18.255-1.774-33.442-10.608-44.271
                                                                                                                                                                                             	c0.864-1.96,1.329-4.05,1.397-6.155l12.564-3.165l1.051,6.227c0.33,1.953,2.023,3.335,3.939,3.335c0.221,0,0.445-0.019,0.67-0.057
                                                                                                                                                                                             	l28.453-4.803c2.179-0.368,3.646-2.432,3.279-4.61l-3.325-19.699c-0.177-1.046-0.762-1.979-1.626-2.594
                                                                                                                                                                                             	c-0.865-0.614-1.939-0.859-2.984-0.685l-28.454,4.803c-1.046,0.177-1.979,0.762-2.594,1.626s-0.861,1.938-0.685,2.984l0.938,5.558
@@ -125,41 +126,41 @@ import { RouterLink, RouterView } from "vue-router";
                                                                                                                                                                                             	l7.74,7.74l-4.282,4.282l-20.084-20.084l87.991-87.991l20.084,20.084L322.511,120.408z M339.149,327.483l-131.941-131.94
                                                                                                                                                                                             	l5.854-5.854l120.64,120.641c0.75,0.75,1.768,1.172,2.829,1.172s2.078-0.422,2.829-1.172l93.647-93.647
                                                                                                                                                                                             	c1.562-1.562,1.562-4.095,0-5.656L312.366,90.385l5.856-5.856l131.941,131.94L339.149,327.483z" />
-              </svg>
+                </svg>
 
-              <span class="mx-2 text-sm font-medium">Tattouages</span>
-            </router-link>
+                <span class="mx-2 text-sm font-medium">Tattouages</span>
+              </router-link>
 
-            <router-link
-              class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              to="/GallerieGraph">
+              <router-link
+                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                to="/GallerieGraph">
 
-              <svg height="20px" width="20px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                <svg height="20px" width="20px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
 
 
-                <g>
-                  <path class="st0"
-                    d="M438.024,210.133c0,7.488,6.08,13.551,13.551,13.551c7.488,0,13.569-6.063,13.569-13.551
+                  <g>
+                    <path class="st0"
+                      d="M438.024,210.133c0,7.488,6.08,13.551,13.551,13.551c7.488,0,13.569-6.063,13.569-13.551
                                                                                                                                                                                     		c0-7.479-6.081-13.552-13.569-13.552C444.104,196.581,438.024,202.654,438.024,210.133z" />
-                  <path class="st0"
-                    d="M400.097,376.503c-5.994,0-10.842,4.856-10.842,10.85c0,5.986,4.848,10.832,10.842,10.832
+                    <path class="st0"
+                      d="M400.097,376.503c-5.994,0-10.842,4.856-10.842,10.85c0,5.986,4.848,10.832,10.842,10.832
                                                                                                                                                                                     		c5.994,0,10.841-4.847,10.841-10.832C410.938,381.359,406.091,376.503,400.097,376.503z" />
-                  <path class="st0"
-                    d="M382.758,415.376c-12.284,0-22.238,9.956-22.238,22.238c0,12.274,9.955,22.229,22.238,22.229
+                    <path class="st0"
+                      d="M382.758,415.376c-12.284,0-22.238,9.956-22.238,22.238c0,12.274,9.955,22.229,22.238,22.229
                                                                                                                                                                                     		c12.283,0,22.238-9.955,22.238-22.229C404.997,425.332,395.041,415.376,382.758,415.376z" />
-                  <circle class="st0" cx="137.251" cy="426.904" r="16.8" />
-                  <path class="st0"
-                    d="M94.425,359.164c-4.778,0-8.669,3.874-8.669,8.678c0,4.778,3.892,8.66,8.669,8.66
+                    <circle class="st0" cx="137.251" cy="426.904" r="16.8" />
+                    <path class="st0"
+                      d="M94.425,359.164c-4.778,0-8.669,3.874-8.669,8.678c0,4.778,3.892,8.66,8.669,8.66
                                                                                                                                                                                     		c4.796,0,8.67-3.883,8.67-8.66C103.094,363.038,99.22,359.164,94.425,359.164z" />
-                  <path class="st0"
-                    d="M54.865,151.063c6.29,0,11.38-5.1,11.38-11.389c0-6.281-5.09-11.38-11.38-11.38
+                    <path class="st0"
+                      d="M54.865,151.063c6.29,0,11.38-5.1,11.38-11.389c0-6.281-5.09-11.38-11.38-11.38
                                                                                                                                                                                     		c-6.289,0-11.38,5.099-11.38,11.38C43.485,145.963,48.576,151.063,54.865,151.063z" />
-                  <path class="st0"
-                    d="M165.97,97.952c8.374,0,15.166-6.793,15.166-15.185c0-8.365-6.792-15.158-15.166-15.158
+                    <path class="st0"
+                      d="M165.97,97.952c8.374,0,15.166-6.793,15.166-15.185c0-8.365-6.792-15.158-15.166-15.158
                                                                                                                                                                                     		s-15.168,6.794-15.168,15.158C150.802,91.158,157.596,97.952,165.97,97.952z" />
-                  <path class="st0"
-                    d="M450.775,300.632c-47.586-16.887-56.968-10.485-80.214-32.515c-5.56-5.255-5.438-22.49,25.47-18.425
+                    <path class="st0"
+                      d="M450.775,300.632c-47.586-16.887-56.968-10.485-80.214-32.515c-5.56-5.255-5.438-22.49,25.47-18.425
                                                                                                                                                                                     		c15.497,2.042,26.008-6.506,26.008-18.702c0-8.131-9.799-19.433-24.393-13.821c-21.126,8.131-34.834-1.094-37.388-11.38
                                                                                                                                                                                     		c-3.25-13.004,0.434-27.832,54.814-54.996c66.646-33.332,28.423-93.983-23.924-36.859c-23.194,25.296-34.14,35.764-49.584,43.895
                                                                                                                                                                                     		c-13.864,7.288-30.49-0.27-17.895-17.069c4.882-6.507,13.17-11.527,15.445-19.511c3.249-11.38-6.324-21.952-14.628-21.952
@@ -173,23 +174,23 @@ import { RouterLink, RouterView } from "vue-router";
                                                                                                                                                                                     		c10.842-5.421,27.781-11.458,39.283,12.457c10.58,21.951,33.34,18.693,42.287,6.506c6.532-8.921,9.851-28.71-16.157-38.969
                                                                                                                                                                                     		c-30.995-12.249-19.615-45.58,3.961-42.323c26.026,3.588,43.868,13.17,74.794,39.569
                                                                                                                                                                                     		C466.829,386.233,522.234,325.989,450.775,300.632z" />
-                </g>
-              </svg>
+                  </g>
+                </svg>
 
-              <span class="mx-2 text-sm font-medium">Graphes</span>
-            </router-link>
-          </div>
-        </nav>
-      </div>
-    </aside>
+                <span class="mx-2 text-sm font-medium">Graphes</span>
+              </router-link>
+            </div>
+          </nav>
+        </div>
+      </aside>
 
-    <RouterView />
+      <RouterView />
 
-    <!-- Petit menu -->
-
-
+      <!-- Petit menu -->
 
 
+
+    </div>
 
     <div class="waveee ">
 
