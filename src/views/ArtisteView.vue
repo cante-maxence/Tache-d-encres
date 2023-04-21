@@ -18,7 +18,8 @@
                             F.A.Q</RouterLink> ou pose
                         la moi
                         directement sur la page <RouterLink
-                            class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline" to="/FAQ">
+                            class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline"
+                            to="/contact">
                             Contact.</RouterLink>
                     </p>
                     <div class="m-4 flex justify-center">
@@ -27,6 +28,7 @@
                             width="340" height="400" scrolling="no" frameborder="0" allowfullscreen="true"
                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
                         </iframe>
+
                     </div>
                 </div>
 

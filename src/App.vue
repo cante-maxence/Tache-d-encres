@@ -6,10 +6,10 @@ import { RouterLink, RouterView } from "vue-router";
   <body>
 
 
-    <div class="first:flex  first:h-screen">
+    <div class="first:flex first:h-screen">
       <!-- Grand menu -->
       <aside
-        class="flex flex-col w-min  invisible sm:invisible md:invisible lg:visible mr-10 px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+        class="flex flex-col w-min invisible sm:invisible md:invisible lg:visible mr-10 px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
         <a href="/">
           <img class="max-w-5xl h-52" src="../src/assets/logo.svg" alt="Logo représentant un poulpe sur fond noir">
         </a>
