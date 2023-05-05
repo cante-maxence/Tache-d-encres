@@ -192,7 +192,7 @@ import { RouterLink, RouterView } from "vue-router";
 
     </div>
 
-    <div class="waveee ">
+    <div class="waveee">
 
       <div>
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -345,6 +345,7 @@ p {
   width: 100%;
   height: 12vh;
   margin-bottom: -7px;
+  z-index: -5;
   /*Fix for safari gap*/
   min-height: 100px;
   max-height: 150px;
