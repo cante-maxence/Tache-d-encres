@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <body>
     <!-- navbar petit menu -->
 
-    <nav class="relative visible sm:hidden md:hidden  px-4 py-4 flex justify-between items-center bg-white">
+    <nav class="relative visible w-full md:hidden  px-4 py-4 flex justify-between items-center bg-white">
       <a class="text-3xl font-bold leading-none" href="#">
         <svg class="h-10" alt="logo" viewBox="0 0 10240 10240">
           <path xmlns="http://www.w3.org/2000/svg"
@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200"
         href="#">Sign up</a>
     </nav>
+
     <div class="navbar-menu relative z-50 hidden">
       <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
       <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
@@ -148,18 +149,9 @@ document.addEventListener('DOMContentLoaded', function () {
             </li>
           </ul>
         </div>
-        <div class="mt-auto">
-          <div class="pt-6">
-            <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl"
-              href="#">Sign in</a>
-            <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl"
-              href="#">Sign Up</a>
-          </div>
-          <p class="my-4 text-xs text-center text-gray-400">
 
-          </p>
-        </div>
       </nav>
+
     </div>
 
 
@@ -172,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
       <aside
-        class=" flex-col w-min hidden  lg:block xl:block  mr-10 px-5 py-8  bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+        class=" flex-col w-min hidden md:block lg:block xl:block  mr-10 px-5 py-8  bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
         <a href="/">
           <img class="max-w-5xl h-52" src="../src/assets/logo.svg" alt="Logo représentant un poulpe sur fond noir">
         </a>

@@ -7,11 +7,12 @@
                     courantes a propos du salon.</p>
             </div>
 
-            <div class="grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-16 gap-x-20">
+            <div class="grid grid-cols-1 mt-12 md:mt-20 lg:grid-cols-2 gap-y-8 gap-x-10">
                 <div class="flex items-start">
                     <div class="ml-4">
                         <p class="text-xl font-semibold text-white">Où êtes-vous situés ?</p>
-                        <p class="mt-4 text-base text-gray-400">Nous sommes localisés à [insérer l'adresse ou la ville].
+                        <p class="mt-4 text-base text-gray-400">Nous sommes localisés aux 40 Faubourg de france, 90000
+                            Belfort.
                             Notre emplacement est facilement accessible et bien desservi par les transports en commun.</p>
                     </div>
                 </div>
@@ -35,8 +36,8 @@
                     <div class="ml-4">
                         <p class="text-xl font-semibold text-white">Puis-je voir vos tarifs ?</p>
                         <p class="mt-4 text-base text-gray-400">Nos tarifs varient en fonction de la taille, de la
-                            complexité et de l'emplacement du tatouage. Vous pouvez consulter nos tarifs sur notre site web
-                            ou en nous contactant directement. Nous offrons également des consultations gratuites pour
+                            complexité et de l'emplacement du tatouage. Nous offrons également des consultations gratuites
+                            pour
                             discuter de votre projet de tatouage.</p>
                     </div>
                 </div>
