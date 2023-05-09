@@ -7,6 +7,7 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001482",
     "kursor": "^0.1.6",
     "tailwindcss-animation": "^0.1.2",
     "vue": "^3.2.37",
