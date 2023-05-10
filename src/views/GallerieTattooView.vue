@@ -62,7 +62,7 @@
     width: 55%;
     text-align: center;
 
-    overflow: hidden;
+
 }
 
 .slides {
@@ -74,7 +74,7 @@
 
 
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: unset;
+
 
 
 }
@@ -158,7 +158,7 @@ img {
 html,
 body {
     height: 100%;
-    overflow: hidden;
+
 }
 
 body {

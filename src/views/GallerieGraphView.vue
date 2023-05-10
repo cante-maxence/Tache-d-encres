@@ -1,5 +1,5 @@
 <template>
-    <div class="slider mt-16 mx-auto">
+    <div class="slider mt-16 p-4 mx-auto">
 
         <div>
 
@@ -11,11 +11,11 @@
 
         <div class="slides gradient-border" id="box">
             <div id="slide-1">
-                <img class="h-auto max-w-full rounded-lg"
+                <img class="h-auto max-w-full rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
             </div>
             <div id="slide-2">
-                <img class="h-auto max-w-full rounded-lg"
+                <img class="h-auto max-w-full rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
             </div>
             <div id="slide-3">
@@ -28,11 +28,11 @@
                 5
             </div>
             <div id="slide-6">
-                <img class="h-auto max-w-full rounded-lg"
+                <img class="h-auto max-w-full rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
             </div>
             <div id="slide-7">
-                <img class="h-auto max-w-full rounded-lg"
+                <img class="h-auto max-w-full rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
             </div>
             <div id="slide-8">
@@ -93,7 +93,7 @@
     width: 55%;
     text-align: center;
 
-    overflow: hidden;
+
 }
 
 .slides {
@@ -105,7 +105,7 @@
 
 
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: unset;
+
 
 
 }
@@ -189,7 +189,7 @@ img {
 html,
 body {
     height: 100%;
-    overflow: hidden;
+
 }
 
 body {

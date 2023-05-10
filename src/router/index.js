@@ -4,7 +4,7 @@ import NotFoundView from '../views/NotFoundView.vue'
 import GallerieGraphView from '../views/GallerieGraphView.vue'
 import GallerieTattooView from '../views/GallerieTattooView.vue'
 import ContactView from '../views/ContactView.vue'
-import TermsView from '../views/TermsView.vue'
+
 import ArtisteView from '../views/ArtisteView.vue'
 import SalonView from '../views/SalonView.vue'
 import FAQView from '../views/FAQView.vue'
@@ -44,11 +44,7 @@ const router = createRouter({
       name: 'Contact',
       component: ContactView
     },
-    {
-      path: '/Terms',
-      name: 'Terms',
-      component: TermsView
-    },
+
     {
       path: '/Politiques',
       name: 'Politiques',

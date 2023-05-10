@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </svg>
       </a>
       <div class="lg:hidden">
-        <button class="navbar-burger flex items-center text-blue-600 p-3">
+        <button class="navbar-burger  flex items-center text-blue-600 p-3">
           <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <title>Mobile menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 href="#">Pricing</a>
             </li>
             <li class="mb-1">
-              <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              <a class="block  p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
                 href="#">Contact</a>
             </li>
           </ul>
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
       <aside
-        class=" flex-col w-min hidden md:block lg:block xl:block  mr-10 px-5 py-8  bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+        class=" flex-col w-min hidden md:block lg:block xl:block px-5 py-8  bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
         <a href="/">
           <img class="max-w-5xl h-52" src="../src/assets/logo.svg" alt="Logo représentant un poulpe sur fond noir">
         </a>
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
 
             <div class="space-y-3 ">
-              <label class="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">Galleries</label>
+              <label class="px-3 text-xs text-gray-500  uppercase dark:text-gray-400">Galleries</label>
 
               <router-link
                 class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
@@ -287,11 +287,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 </router-link>
               </li>
 
-              <li>
-                <router-link to="/Terms" href="#" class="text-gray-500 transition hover:opacity-75">
-                  Terms & Conditions
-                </router-link>
-              </li>
 
 
             </ul>
@@ -399,7 +394,7 @@ p {
 .flex {
   /*Flexbox for containers*/
   display: flex;
-  text-align: center;
+
 }
 
 .waves {
