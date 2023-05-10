@@ -9,7 +9,7 @@
         </div>
 
 
-        <div class="slides">
+        <div class="slides gradient-border" id="box">
             <div id="slide-1">
                 <img class="h-auto max-w-full rounded-lg"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">

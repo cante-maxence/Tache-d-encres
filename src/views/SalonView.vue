@@ -5,9 +5,11 @@
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 lg:flex-col">
                     <div>
-                        <p class="text-base font-semibold tracking-wider text-blue-600 uppercase">Un salon de tatouage
+                        <p class="text-base font-semibold tracking-wider text-white uppercase">Un salon de tatouage
                             Belfortain</p>
-                        <h1 class="mt-4 text-4xl font-bold text-white lg:mt-8 sm:text-4xl xl:text-6xl">Le corps est votre
+                        <h1
+                            class="mt-4 text-4xl font-bold bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent text-white lg:mt-8 sm:text-4xl xl:text-6xl">
+                            Le corps est votre
                             toile, notre salon est votre pinceau.</h1>
                         <p class="mt-4 text-base text-white lg:mt-8 sm:text-xl">Des tatouages encré dans votre esprit et
                             votre peau.</p>

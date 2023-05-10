@@ -3,9 +3,11 @@
         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div class="grid items-center grid-cols-1 lg:grid-cols-2">
                 <div class="md:mt-20">
-                    <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl animate-fade-in">Salut 👋
+                    <h2
+                        class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl from-green-300 via-blue-500 to-purple-600 animate-fade-in">
+                        Salut 👋
                         moi c'est <br class="block sm:hidden" />Jenny Carter</h2>
-                    <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-200 md:mt-8 animate-slide-up">"Un tatoueur
+                    <p class="max-w-lg  mt-3 text-xl leading-relaxed text-gray-200 md:mt-8 animate-slide-up">"Un tatoueur
                         talentueux peut
                         transformer un corps en une œuvre d'art."</p>
 
