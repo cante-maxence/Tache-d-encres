@@ -4,12 +4,14 @@
             <div class="grid items-center grid-cols-1 lg:grid-cols-2">
                 <div class="md:mt-20">
                     <h2
-                        class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent  leading-tight text-white sm:text-4xl lg:text-5xl from-green-300 via-blue-500 to-purple-600 animate-fade-in">
+                        class="bg-gradient-to-r from-green-300via-blue-500to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent  leading-tight text-white sm:text-4xl lg:text-5xl from-green-300 via-blue-500 to-purple-600 animate-fade-in">
                         Salut 👋
-                        moi c'est <br class="block sm:hidden" />Jenny Carter</h2>
+                        moi c'est <br class="block sm:hidden" />Loïc Clerici</h2>
                     <p class="max-w-lg  mt-3 text-xl leading-relaxed text-gray-200 md:mt-8 animate-slide-up">"Un tatoueur
                         talentueux peut
-                        transformer un corps en une œuvre d'art."</p>
+                        transformer un corps en une œuvre d'art." <br>Retrouve moi
+                        dans mon salon et vite, on a un tatouage a faire.</p>
+
 
                     <p class="mt-4 text-xl text-gray-400 md:mt-8 animate-slide-up">
                         <span class="relative inline-block">

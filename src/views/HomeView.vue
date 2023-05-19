@@ -1,13 +1,16 @@
 <template>
     <div class=" w-full ">
-        <div class="relative  ">
-            <div class="max-w-7xl mx-auto">
-                <div class="relative z-10 pb-8  sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
+        <div class="relative">
+            <div class="max-w-7xl mx-auto ">
+                <div class="relative z-0 pb-8  sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
                     <div class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
                         <div class="sm:text-center lg:text-left">
-                            <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
-                                <span class="block xl:inline">Votre nouveau tatouage</span>
-                                <span class="block  xl:inline"> à portée de tentacule.</span>
+                            <img class="w-11/12 z-10 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 xl:w-"
+                                src="../assets/Tachencre-font-removebg-preview.png" alt="" />
+
+                            <h1 class="text-4xl tracking-tight  font-extrabold text-white sm:text-5xl md:text-6xl">
+                                <span class="block z-10 xl:inline">Votre nouveau tatouage</span>
+                                <span class="block z-10 xl:inline"> à portée de tentacule.</span>
                             </h1>
                             <p
                                 class="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -35,14 +38,14 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div class=" absolute right-0 bottom-10 z-0 w-2/6 rotate-6">
+                            <img src="../assets/tattoologo.png" class="z-0" alt="Logo représentant un poulpe sur fond noir">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="absolute right-0 bottom-10  rotate-6">
-            <img src="../assets/logo.svg" class="z-0" alt="Logo représentant un poulpe sur fond noir">
-        </div>
+
 
     </div>
 </template>

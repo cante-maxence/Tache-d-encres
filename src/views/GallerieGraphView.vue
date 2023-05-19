@@ -185,17 +185,4 @@ img {
         display: none;
     }
 }
-
-html,
-body {
-    height: 100%;
-
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 </style>

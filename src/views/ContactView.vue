@@ -16,7 +16,7 @@
             </div>
 
 
-            <div class="grid grid-cols-1 hidden md:grid lg:grid xl:grid gap-4 px-8 text-center md:px-0 md:grid-cols-2">
+            <div class="grid grid-cols-1  md:grid lg:grid xl:grid gap-4 px-8 text-center md:px-0 md:grid-cols-2">
                 <div class=" bg-white rounded-xl">
                     <div class="p-6">
                         <svg class="flex-shrink-0 w-10 h-10 mx-auto text-gray-400" xmlns="http://www.w3.org/2000/svg"
