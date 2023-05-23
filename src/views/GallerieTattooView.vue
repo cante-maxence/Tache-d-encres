@@ -1,65 +1,70 @@
 <template>
     <div class="slider mt-16 mx-auto">
         <div>
-            <h1 class="text-4xl font-bold text-white mb-10 sm:text-4xl xl:text-6xl">
-                Galeries des tatouages
-            </h1>
+            <h1 class="text-4xl font-bold text-white mb-10 sm:text-4xl xl:text-6xl">Galleries des Tattoo </h1>
         </div>
-        <div class="slides">
-            <div id="slide-1">
-                <img class="h-auto max-w-full rounded-lg"
+
+        <div class="slides grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                <p
+                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
+                    Texte de description pour l'image 1
+                </p>
             </div>
-            <div id="slide-2">
-                <img class="h-auto max-w-full rounded-lg"
+            <div id="slide-2" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+                <p
+                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
+                    Texte de description pour l'image 2
+                </p>
             </div>
-            <div id="slide-3">3</div>
-            <div id="slide-4">4</div>
-            <div id="slide-5">5</div>
-            <div id="slide-6">
-                <img class="h-auto max-w-full rounded-lg"
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                <p
+                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
+                    Texte de description pour l'image 1
+                </p>
             </div>
-            <div id="slide-7">
-                <img class="h-auto max-w-full rounded-lg"
+            <div id="slide-2" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+                <p
+                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
+                    Texte de description pour l'image 2
+                </p>
             </div>
-            <div id="slide-8">8</div>
-            <div id="slide-9">9</div>
-            <div id="slide-10">10</div>
-            <div id="slide-11">
-                <img class="h-auto max-w-full rounded-lg"
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                <p
+                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
+                    Texte de description pour l'image 1
+                </p>
             </div>
-            <div id="slide-12">
-                <img class="h-auto max-w-full rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
-            </div>
-            <div id="slide-13">3</div>
-            <div id="slide-14">4</div>
-            <div id="slide-15">5</div>
-            <div id="slide-16">
-                <img class="h-auto max-w-full rounded-lg"
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                <p
+                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
+                    Texte de description pour l'image 1
+                </p>
             </div>
-            <div id="slide-17">
-                <img class="h-auto max-w-full rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
-            </div>
-            <div id="slide-18">8</div>
-            <div id="slide-19">9</div>
-            <div id="slide-20">10</div>
         </div>
-        <p class="my-4 text-base text-white lg:mt-8 sm:text-xl">
-            20 tatouages à pêcher.
-        </p>
+
+        <p class="my-4 text-base text-white lg:mt-8 sm:text-xl">20 Graph' à pêcher.</p>
+
+
+
     </div>
 </template>
 
 <style scoped>
 .slider {
-    width: 55%;
+    width: 80%;
     text-align: center;
 
 
@@ -154,17 +159,5 @@ img {
         display: none;
     }
 }
-
-html,
-body {
-    height: 100%;
-
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 </style>
+

@@ -1,9 +1,6 @@
 <template>
-    <section class=" grid grid-cols-2 h-auto mx-auto xs:p-10 sm:p-12  lg:px-24">
+    <section class=" grid  h-auto mx-auto xs:p-10 sm:p-12  lg:px-24">
 
-
-        <img class="my-auto  w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 animate-slide-left"
-            src="../assets/Photo-pro.png" alt="" />
 
 
 

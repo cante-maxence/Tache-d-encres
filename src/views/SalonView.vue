@@ -1,10 +1,10 @@
 <template>
     <div
-        class="h-full w-full bg-no-repeat bg-contain bg-center bg-[url('C:\Users\pixel\Desktop\Tattoo\src\assets\abeille-chien-arbre.png')]">
+        class=" w-full flex items-center justify-center h-screen bg-no-repeat bg-contain bg-center bg-[url('C:\Users\pixel\Desktop\Tattoo\src\assets\abeille-chien-arbre.png')]">
 
-        <section class="py-10 sm:py-16 lg:py-24">
+        <section class="pb-20  ">
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 lg:flex-col">
+                <div class="grid items-center grid-cols-1  lg:grid-cols-2 lg:flex-col">
                     <div>
                         <p class="text-base font-semibold tracking-wider text-white uppercase">Un salon de tatouage
                             Belfortain</p>
@@ -26,10 +26,10 @@
                         </div>
                     </div>
 
-                    <div>
-                        <img class="w-full"
-                            src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="" />
-                    </div>
+                    <video class="w-full h-full object-cover" autoplay muted loop>
+                        <source src="../assets/Video.mp4" type="video/mp4">
+                        <!-- Add additional source elements for different video formats if needed -->
+                    </video>
                 </div>
             </div>
         </section>
