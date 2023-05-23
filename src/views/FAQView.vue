@@ -16,7 +16,8 @@
                                 </defs>
                                 <rect fill="url(#ec5d8ef5-b853-4714-b94f-df28ec98eeb7)" width="72" height="24"></rect>
                             </svg>
-                            <span class="relative">F.A.Q</span>
+                            <span
+                                class="relative mb-10  text-3xl font-extrabold text-transparent leading-tight text-white  lg:text-5xl from-green-300 via-blue-500 to-purple-600 animate-fade-in">F.A.Q</span>
                         </span>
 
                     </h2>

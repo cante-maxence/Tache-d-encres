@@ -3,7 +3,7 @@
         <div>
             <h1
                 class="mb-10 bg-gradient-to-r from-green-300via-blue-500to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent  leading-tight text-white  lg:text-5xl from-green-300 via-blue-500 to-purple-600 animate-fade-in sm:text-4xl xl:text-6xl">
-                Galleries des Tattoo's </h1>
+                Galleries<br /> des Tattoo's </h1>
         </div>
 
         <div class="slides grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

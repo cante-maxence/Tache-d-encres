@@ -1,6 +1,6 @@
 <template>
     <div class=" w-full ">
-        <div class="relative">
+        <div class="relative grid grid-flow-col grid-cols-2">
             <div class="max-w-7xl mx-auto ">
                 <div class="relative z-0 pb-8  sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
                     <div class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
@@ -8,8 +8,10 @@
                             <img class="w-11/12 z-10 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 xl:w-"
                                 src="../assets/Tachencre-font-removebg-preview.png" alt="" />
 
-                            <h1 class="text-4xl tracking-tight  font-extrabold text-white sm:text-5xl md:text-6xl">
+                            <h1
+                                class="text-4xl mb-10 bg-gradient-to-r from-green-300via-blue-500to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent  leading-tight   lg:text-5xl from-green-300 via-blue-500 to-purple-600 animate-fade-in tracking-tight  font-extrabold text-white sm:text-5xl md:text-6xl">
                                 <span class="block z-10 xl:inline">Votre nouveau tatouage</span>
+                                <br />
                                 <span class="block z-10 xl:inline"> à portée de tentacule.</span>
                             </h1>
                             <p
@@ -43,8 +45,9 @@
                 </div>
             </div>
         </div>
+        <div class="relative grid grid-flow-col grid-cols-2">
 
-
+        </div>
     </div>
 </template>
 
