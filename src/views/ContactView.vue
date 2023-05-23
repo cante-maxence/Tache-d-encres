@@ -14,16 +14,16 @@
 
 
             <div class="grid grid-cols-1  md:grid lg:grid xl:grid gap-4 px-8 text-center md:px-0 md:grid-cols-2">
-                <div class=" bg-white rounded-xl">
+                <div class=" bg-white hidden md:grid lg:grid xl:grid rounded-xl">
                     <div class="p-6">
                         <svg class="flex-shrink-0 w-10 h-10 mx-auto text-gray-400" xmlns="http://www.w3.org/2000/svg"
                             fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
-                        <p
-                            class="xs:text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl mt-6 text-lg font-medium text-gray-900">
+                        <p class="mt-6 xs:text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl font-medium text-gray-900">
                             07 68 31 36 49</p>
+
 
                     </div>
                 </div>
@@ -46,9 +46,8 @@
 
             </div>
 
-            <div class="mt-2  bg-white rounded-xl">
-                <div class=" px-10
-                py-2 sm:p-6">
+            <div class="mt-4  bg-white rounded-xl">
+                <div class=" px-10 py-2 ">
 
                     <form action="https://api.web3forms.com/submit" method="POST" class="mt-14">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
@@ -59,10 +58,6 @@
                                         class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
                                 </div>
                             </div>
-
-
-
-
 
                             <div>
                                 <label for="" class="text-base font-medium text-gray-900"> Email </label>

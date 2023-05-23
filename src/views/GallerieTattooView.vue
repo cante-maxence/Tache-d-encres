@@ -1,63 +1,111 @@
 <template>
     <div class="slider mt-16 mx-auto">
         <div>
-            <h1 class="text-4xl font-bold text-white mb-10 sm:text-4xl xl:text-6xl">Galleries des Tattoo </h1>
+            <h1
+                class="mb-10 bg-gradient-to-r from-green-300via-blue-500to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent  leading-tight text-white  lg:text-5xl from-green-300 via-blue-500 to-purple-600 animate-fade-in sm:text-4xl xl:text-6xl">
+                Galleries des Tattoo's </h1>
         </div>
 
         <div class="slides grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
-                <p
-                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
-                    Texte de description pour l'image 1
-                </p>
+                    src="../assets/tatouage/abeillereine.jpeg" alt="">
+
             </div>
             <div id="slide-2" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
-                <p
-                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
-                    Texte de description pour l'image 2
-                </p>
+                    src="../assets/tatouage/bisous.jpeg" alt="">
+
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
-                <p
-                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
-                    Texte de description pour l'image 1
-                </p>
+                    src="../assets/tatouage/butter.jpeg" alt="">
+
             </div>
             <div id="slide-2" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
-                <p
-                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
-                    Texte de description pour l'image 2
-                </p>
+                    src="../assets/tatouage/crane.jpeg" alt="">
+
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
-                <p
-                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
-                    Texte de description pour l'image 1
-                </p>
+                    src="../assets/tatouage/dragon.jpeg" alt="">
+
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
-                <p
-                    class="hidden absolute top-0 left-0 w-full h-full flex items-center justify-center text-white bg-black bg-opacity-75 transition-opacity duration-300 ease-in-out">
-                    Texte de description pour l'image 1
-                </p>
+                    src="../assets/tatouage/fleurs.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/hibiscus.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/inosuke.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/japon.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/kraken.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/lady.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/main.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/princess.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/raven.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/rope.jpeg" alt="">
+
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/solaroc.jpeg" alt="">
+
             </div>
         </div>
 
-        <p class="my-4 text-base text-white lg:mt-8 sm:text-xl">20 Graph' à pêcher.</p>
 
 
+        <div class="flex flex-wrap mt-10 justify-center">
+            <div class="m-3">
+                <a href="https://m.facebook.com/tachedencrestattoo/"
+                    class="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+                    <span class="mx-auto">Facebook</span>
+                </a>
+            </div>
+            <div class="m-3">
+                <a href="https://instagram.com/tachedencrestattoo?igshid=MzRlODBiNWFlZA=="
+                    class="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-pink-500 hover:border-pink-500 hover:bg-pink-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+                    <span class="mx-auto">Instagram</span>
+                </a>
+            </div>
+
+        </div>
 
     </div>
 </template>
@@ -129,35 +177,6 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.slider>a {
-    display: inline-flex;
-    width: 2rem;
-    height: 2rem;
-    background: white;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-
-    margin: 0 0 0.5rem 0;
-    position: relative;
-}
-
-.slider>a:active {
-    top: 1px;
-}
-
-.slider>a:focus {
-    background: #000;
-}
-
-/* Don't need button navigation */
-@supports (scroll-snap-type) {
-    .slider>a {
-        display: none;
-    }
 }
 </style>
 

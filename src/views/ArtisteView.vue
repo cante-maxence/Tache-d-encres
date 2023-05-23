@@ -27,10 +27,10 @@
                 </div>
 
                 <div class="relative">
-                    <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2"
+                    <img class="absolute hidden md:block inset-x-0 bottom-0 z-1 -mb-48 -translate-x-1/2 left-1/2"
                         src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" alt="" />
 
-                    <img class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 animate-slide-left"
+                    <img class="relative hidden md:block w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 animate-slide-left"
                         src="../assets/Photo-pro.png" alt="" />
                 </div>
             </div>

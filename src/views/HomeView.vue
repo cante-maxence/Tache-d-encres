@@ -38,9 +38,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class=" absolute right-0 bottom-10 z-0 w-2/6 rotate-6">
-                            <img src="../assets/tattoologo.png" class="z-0" alt="Logo représentant un poulpe sur fond noir">
-                        </div>
+
                     </div>
                 </div>
             </div>

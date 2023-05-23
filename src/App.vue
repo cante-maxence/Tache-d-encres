@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       <RouterView />
     </div>
-    <!-- Petit menu -->
+
 
 
     <div class="waveee hidden xl:block">
@@ -287,6 +287,8 @@ document.addEventListener('DOMContentLoaded', function () {
       <!--Waves end-->
     </div>
 
+
+
     <footer aria-label="Site Footer" class="bg-white z-30">
       <div class="max-w-screen-xl px-4  pb-4 mx-auto sm:px-6 ">
 
@@ -307,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
           <ul class="flex justify-center gap-6 mt-8 sm:mt-0 lg:justify-end">
             <li>
-              <a href="https://m.facebook.com/tachedencrestattoo/?ref=bookmarks" rel="noreferrer" target="_blank"
+              <a href="https://m.facebook.com/tachedencrestattoo//?ref=bookmarks" rel="noreferrer" target="_blank"
                 class="text-gray-700 transition hover:opacity-75">
                 <span class="sr-only">Facebook</span>
 
