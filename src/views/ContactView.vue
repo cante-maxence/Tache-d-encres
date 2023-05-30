@@ -36,7 +36,7 @@
                                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                         <p class="mt-6 xs:text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl font-medium text-gray-900">
-                            tachedencre90</p>
+                            tachedencres90</p>
                         <p class=" xs:text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl font-medium text-gray-900">
                             @gmail.com</p>
 

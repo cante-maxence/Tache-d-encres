@@ -6,7 +6,7 @@
                     <h2
                         class="bg-gradient-to-r from-green-300via-blue-500to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent  leading-tight text-white sm:text-4xl lg:text-5xl from-green-300 via-blue-500 to-purple-600 animate-fade-in">
                         Salut 👋
-                        moi c'est <br class="block sm:hidden" />Loïc Clerici</h2>
+                        moi c'est <br class="block sm:hidden" />Lox</h2>
                     <p class="max-w-lg  mt-3 text-xl leading-relaxed text-gray-200 md:mt-8 animate-slide-up">"Un tatoueur
                         talentueux peut
                         transformer un corps en une œuvre d'art." <br>Retrouve moi

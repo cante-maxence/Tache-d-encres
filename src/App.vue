@@ -95,10 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </li>
         <li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</a></li>
       </ul>
-      <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200"
-        href="#">Sign In</a>
-      <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200"
-        href="#">Sign up</a>
+
     </nav>
 
     <div class="navbar-menu relative z-50 hidden">
@@ -140,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
 
             <div class="space-y-3 ">
-              <label class="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">Questions</label>
+              <label class="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">Informations</label>
 
               <router-link
                 class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
@@ -191,18 +188,19 @@ document.addEventListener('DOMContentLoaded', function () {
       <!-- Grand menu -->
 
       <aside
-        class=" flex-col w-min hidden  md:block lg:block xl:block px-5 py-8  bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+        class=" flex-col w-min hidden bg-white bg-opacity-5 md:block lg:block xl:block px-5 py-8  border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
         <a href="/">
-          <img class="logo-image" src="../src/assets/tattoologo.png" alt="Logo représentant un poulpe sur fond noir">
+          <img class="logo-image" src="../src/assets/logoBlanc.png" alt="Logo représentant un poulpe sur fond noir">
         </a>
 
         <div class="flex flex-col justify-between  flex-1 mt-6">
           <nav class="-mx-3 space-y-6 ">
             <div class="space-y-3 ">
-              <label class="px-3 text-xs  text-gray-500 uppercase dark:text-gray-400">Présentation</label>
+              <label
+                class="px-3   bg-gradient-to-r bg-clip-text text-xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold uppercase">Présentation</label>
 
               <router-link
-                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                class="flex items-center px-3 py-2 bg-gradient-to-r bg-clip-text text-3xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 "
                 to="/salon">
 
 
@@ -210,23 +208,24 @@ document.addEventListener('DOMContentLoaded', function () {
               </router-link>
 
               <router-link
-                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                class="flex items-center px-3 py-2 bg-gradient-to-r bg-clip-text text-3xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 "
                 to="/Artiste">
                 <span class="mx-2 text-sm font-medium">Artiste</span>
               </router-link>
             </div>
 
             <div class="space-y-3 ">
-              <label class="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">Questions</label>
+              <label
+                class="px-3  bg-gradient-to-r bg-clip-text text-xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold uppercase dark:text-yellow-400">Questions</label>
 
               <router-link
-                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                class="flex items-center px-3 py-2 bg-gradient-to-r bg-clip-text text-3xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 "
                 to="/contact">
                 <span class="mx-2 text-sm font-medium">Contact</span>
               </router-link>
 
               <router-link to="/FAQ"
-                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                class="flex items-center px-3 py-2 bg-gradient-to-r bg-clip-text text-3xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 "
                 href="#">
 
 
@@ -237,10 +236,11 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
 
             <div class="space-y-3 ">
-              <label class="px-3 text-xs text-gray-500  uppercase dark:text-gray-400">Galleries</label>
+              <label
+                class="px-3  bg-gradient-to-r bg-clip-text text-xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold  uppercase dark:text-yellow-400">Galleries</label>
 
               <router-link
-                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                class="flex items-center px-3 py-2 bg-gradient-to-r bg-clip-text text-3xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 "
                 to="/GallerieTattoo">
 
 
@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function () {
               </router-link>
 
               <router-link
-                class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
+                class="flex items-center px-3 py-2 bg-gradient-to-r bg-clip-text text-3xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 "
                 to="/GallerieGraph">
 
 
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     <footer aria-label="Site Footer" class="bg-white z-30">
-      <div class="max-w-screen-xl px-4  pb-4 mx-auto sm:px-6 ">
+      <div class="max-w-screen-xl px-4 bg-white pb-4 mx-auto sm:px-6 ">
 
 
         <div class="pt-4  border-t border-gray-100 sm:flex sm:items-center sm:justify-between">
