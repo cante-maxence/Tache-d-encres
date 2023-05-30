@@ -69,7 +69,7 @@
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="../assets/tatouage/princess.jpeg" alt="">
+                    src="../assets/tatouage/" alt="">
 
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">

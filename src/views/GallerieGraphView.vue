@@ -12,11 +12,7 @@
                     src="../assets/graph/3dauto.jpeg" alt="">
 
             </div>
-            <div id="slide-2" class="rounded-lg overflow-hidden">
-                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="../assets/graph/aka.png" alt="">
 
-            </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="../assets/graph/bat1.jpeg" alt="">
@@ -49,7 +45,7 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap mt-10 justify-center">
+        <div class="grid grid-cols-2 gap-3 mt-10 justify-center">
 
             <div class="m-3">
                 <a href="https://m.facebook.com/tachedencrestattoo/"
