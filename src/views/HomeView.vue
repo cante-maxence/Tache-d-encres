@@ -5,7 +5,7 @@
                 <div class="relative z-0 pb-8  sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
                     <div class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
                         <div class="sm:text-center lg:text-left">
-                            <img class="w-11/12 z-10 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 xl:w-"
+                            <img class="w-11/12 z-10 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl "
                                 src="../assets/Tachencre-font-removebg-preview.png" alt="" />
 
                             <h1

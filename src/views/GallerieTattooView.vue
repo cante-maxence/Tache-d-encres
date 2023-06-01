@@ -7,6 +7,7 @@
         </div>
 
         <div class="slides grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="../assets/tatouage/abeillereine.jpeg" alt="">
@@ -24,13 +25,13 @@
             </div>
             <div id="slide-2" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="../assets/tatouage/crane.jpeg" alt="">
+                    src="../assets/tatouage/iron.jpeg" alt="">
 
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="../assets/tatouage/dragon.jpeg" alt="">
-
+                <!-- 6 a 10 -->
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
@@ -39,7 +40,7 @@
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="../assets/tatouage/hibiscus.jpeg" alt="">
+                    src="../assets/tatouage/fleur.jpeg" alt="">
 
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
@@ -69,7 +70,7 @@
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
-                    src="../assets/tatouage/" alt="">
+                    src="../assets/tatouage/lions.jpeg" alt="">
 
             </div>
             <div id="slide-1" class="rounded-lg overflow-hidden">
@@ -85,13 +86,32 @@
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="../assets/tatouage/solaroc.jpeg" alt="">
-
             </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/orque.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/leg.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/iron2.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/tatouage/hibiscus.jpeg" alt="">
+            </div>
+
+
         </div>
+        <!-- 1 a 5 -->
 
 
 
-        <div class="flex flex-wrap mt-10 justify-center">
+        <div class="grid grid-cols-2 gap-3 mt-10 justify-center">
+
             <div class="m-3">
                 <a href="https://m.facebook.com/tachedencrestattoo/"
                     class="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center">

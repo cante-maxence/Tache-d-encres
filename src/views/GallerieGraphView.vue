@@ -7,10 +7,11 @@
         </div>
 
         <div class="slides grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="../assets/graph/3dauto.jpeg" alt="">
-
             </div>
 
             <div id="slide-1" class="rounded-lg overflow-hidden">
@@ -41,7 +42,39 @@
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="../assets/graph/église.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/graph/fille.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/graph/frog.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/graph/lézard.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/graph/ours.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/graph/doc.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/graph/frag.jpeg" alt="">
+            </div>
 
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/graph/lion.jpeg" alt="">
+            </div>
+            <div id="slide-1" class="rounded-lg overflow-hidden">
+                <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
+                    src="../assets/graph/mario.jpeg" alt="">
             </div>
         </div>
 

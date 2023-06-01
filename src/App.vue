@@ -196,16 +196,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
       <aside
         class=" flex-col w-min hidden bg-white bg-opacity-5 md:block lg:block xl:block px-5 py-8  border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+
         <a href="/">
-          <img class="logo-image" src="../src/assets/logoBlanc.png" alt="Logo représentant un poulpe sur fond noir">
+          <div class="flex justify-center">
+            <a href="/">
+              <img class="logo-image mx-auto w-full sm:w-1/5 md:w-1/4 lg:w-1/3 xl:w-40" src="../src/assets/logoBlanc.png"
+                alt="Logo représentant un poulpe sur fond noir">
+            </a>
+          </div>
         </a>
+
 
         <div class="flex flex-col justify-between  flex-1 mt-6">
           <nav class="-mx-3 space-y-6 ">
             <div class="space-y-3 ">
               <label
-                class="px-3   bg-gradient-to-r bg-clip-text text-xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold uppercase">Présentation</label>
-
+                class="px-3 bg-gradient-to-r bg-clip-text text-md text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold uppercase">Présentation</label>
               <router-link
                 class="flex items-center px-3 py-2 bg-gradient-to-r bg-clip-text text-3xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 "
                 to="/salon">
@@ -223,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             <div class="space-y-3 ">
               <label
-                class="px-3  bg-gradient-to-r bg-clip-text text-xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold uppercase dark:text-yellow-400">Informations</label>
+                class="px-3  bg-gradient-to-r bg-clip-text text-md text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold uppercase dark:text-yellow-400">Informations</label>
 
               <router-link
                 class="flex items-center px-3 py-2 bg-gradient-to-r bg-clip-text text-3xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 "
@@ -252,7 +258,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             <div class="space-y-3 ">
               <label
-                class="px-3  bg-gradient-to-r bg-clip-text text-xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold  uppercase dark:text-yellow-400">Galleries</label>
+                class="px-3  bg-gradient-to-r bg-clip-text text-md text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold  uppercase dark:text-yellow-400">Galleries</label>
 
               <router-link
                 class="flex items-center px-3 py-2 bg-gradient-to-r bg-clip-text text-3xl text-transparent leading-tight from-green-300 via-blue-500 to-purple-600 animate-fade-in font-extrabold transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 "
