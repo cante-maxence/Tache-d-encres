@@ -2,12 +2,12 @@
     <section class="pt-20 mx-auto md:pt-0 sm:pt-24 2xl:pt-24 grid grid-cols-1 text-center ">
         <div class="px-6 mx-auto sm:px-8 lg:px-10 max-w-7xl">
             <div class=" items-center gap-8 ">
-                <div class="md:mt-24">
+                <div>
                     <h2
                         class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-4xl font-extrabold text-transparent leading-tight text-white sm:text-5xl lg:text-6xl">
                         Salut 👋 moi c'est <br class="block sm:hidden" />Lox
                     </h2>
-                    <p class=" mt-6 text-xl leading-relaxed text-gray-200">
+                    <p class=" mt-6 text-sm md:text-xl leading-relaxed text-gray-200">
 
                         Passionné de dessin, les années 90 et l'arrivée du mouvement Hip-Hop avec ses valeurs, son énergie
                         et sa richesse m'ont propulsé dans l'univers du graffiti. Autodidacte, je me suis perfectionné sur
@@ -41,8 +41,9 @@
                     </p>
                 </div>
 
-                <div class="relative flex justify-center">
-                    <img class="absolute inset-0 mx-auto w-3/5 mt-10" src="../assets/Photo-pro.jpeg" alt="" />
+                <div class="relative hidden md:block justify-center">
+                    <img class="absolute inset-0 mx-auto w-2/5 mt-10" src="../assets/Photo-pro.jpeg"
+                        alt="KeyLox avec un de ces graphitti" />
                 </div>
 
             </div>
