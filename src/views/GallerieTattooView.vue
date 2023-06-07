@@ -8,11 +8,13 @@
 
         <div class="slides grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
+
             <div id="slide-1" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="../assets/tatouage/abeillereine.jpeg" alt="">
-
             </div>
+
+
             <div id="slide-2" class="rounded-lg overflow-hidden">
                 <img class="w-full h-auto rounded-lg hover:scale-110 transition-all duration-300 ease-out"
                     src="../assets/tatouage/bisous.jpeg" alt="">

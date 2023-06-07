@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import NotFoundView from '../views/NotFoundView.vue'
+import Page404View from '../views/Page404View.vue'
 import GallerieGraphView from '../views/GallerieGraphView.vue'
 import GallerieTattooView from '../views/GallerieTattooView.vue'
 import ContactView from '../views/ContactView.vue'
@@ -61,7 +61,7 @@ const router = createRouter({
       component: contratView
     },
 
-    { path: '/:pathMatch(.*)*', component: NotFoundView },
+    { path: "/:catchAll(.*)", name: "Page404View", component: Page404View },
   ]
 })
 

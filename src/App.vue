@@ -43,6 +43,34 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
+// Sélectionnez l'élément du menu
+const menu = document.querySelector('.navbar-menu');
+
+// Sélectionnez les boutons de fermeture
+const close = document.querySelectorAll('.navbar-close');
+// Sélectionnez les arrière-plans du menu
+const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+// Fonction pour fermer le menu
+function closeMenu() {
+  menu.classList.add('hidden');
+}
+
+// Ajoutez un écouteur d'événement de clic pour chaque bouton de fermeture
+if (close.length) {
+  for (var i = 0; i < close.length; i++) {
+    close[i].addEventListener('click', closeMenu);
+  }
+}
+
+// Ajoutez un écouteur d'événement de clic pour chaque arrière-plan du menu
+if (backdrop.length) {
+  for (var i = 0; i < backdrop.length; i++) {
+    backdrop[i].addEventListener('click', closeMenu);
+  }
+}
+
+
 </script>
 
 <template>
@@ -56,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       </a>
       <div class="lg:hidden">
-        <button class="navbar-burger  flex items-center text-blue-600 p-3">
+        <button id="navbar-burger" class="navbar-burger flex items-center text-blue-600 p-3">
           <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <title>Menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -124,8 +152,6 @@ document.addEventListener('DOMContentLoaded', function () {
               <router-link
                 class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
                 to="/salon">
-
-
                 <span class="mx-2 text-sm font-medium">Salon</span>
               </router-link>
 
@@ -200,8 +226,8 @@ document.addEventListener('DOMContentLoaded', function () {
         <a href="/">
           <div class="flex justify-center">
             <a href="/">
-              <img class="logo-image mx-auto w-full sm:w-1/5 md:w-1/4 lg:w-1/3 xl:w-40" src="../src/assets/logoBlanc.png"
-                alt="Logo représentant un poulpe sur fond noir">
+              <img class="logo-image mx-auto w-full sm:w-1/5 md:w-1/4 lg:w-1/3 xl:w-32
+              " src="../src/assets/logoBlanc.png" alt="Logo représentant un poulpe sur fond noir">
             </a>
           </div>
         </a>
